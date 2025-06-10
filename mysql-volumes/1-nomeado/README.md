@@ -64,9 +64,9 @@ docker run -d \
 ```
 
 <div align="center">
-    <img src="./media/container-2.png" alt="Container em execução, o segundo" width="700" height="336">
+    <img src="./media/container-2.png" alt="Container em execução, o segundo">
 </div>
 
 <div align="center">
-    <img src="./media/database-2.png" alt="Persistência do banco" width="700" height="336">
+    <img src="./media/database-2.png" alt="Persistência do banco">
 </div>
