@@ -26,7 +26,7 @@ docker container ps
 mysql -h 127.0.0.1 -u root -p
 ```
 
-**Nota**: Depois insira a senha do root definida ao rodar o container.
+**Nota**: Depois insira a senha do root definida ao rodar o container. E tenha o MySQL client instalado.
 
 ```bash
 CREATE DATABASE students;
@@ -69,4 +69,16 @@ docker run -d \
 
 <div align="center">
     <img src="./media/database-2.png" alt="Persistência do banco">
+</div>
+
+## Acessando os dados do container MySQL de um outro container
+```bash
+docker container run -it --volumes-from container-ID-mysql --name test-data alpine
+```
+```bash
+ls -la /var/lib/mysql
+```
+
+<div align="center">
+    <img src="./media/container2container.png" alt="Acessar banco de outro container do container mysql">
 </div>
