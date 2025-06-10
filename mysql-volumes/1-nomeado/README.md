@@ -18,7 +18,7 @@ docker container ps
 ```
 
 <div align="center">
-    <img src="./media/container-in-execution.png" alt="Demonstração" width="700" height="336">
+    <img src="./media/container-in-execution.png" alt="Verificação do container em execução">
 </div>
 
 ## 3. Criar um banco de dados e verificar os bancos
@@ -34,7 +34,7 @@ SHOW databases;
 ```
 
 <div align="center">
-    <img src="./media/databases.png" alt="Demonstração" width="700" height="336">
+    <img src="./media/databases.png" alt="Verificação do banco criado">
 </div>
 
 ## 4. Testar persistência
@@ -50,7 +50,7 @@ docker volume inspect mysql_data
 ```
 
 <div align="center">
-    <img src="./media/explore-volume.png" alt="Demonstração" width="700" height="336">
+    <img src="./media/explore-volume.png" alt="Explorando os volumes">
 </div>
 
 # 6. Rodar novo container com o mesmo volume
@@ -64,9 +64,9 @@ docker run -d \
 ```
 
 <div align="center">
-    <img src="./media/container-2.png" alt="Demonstração" width="700" height="336">
+    <img src="./media/container-2.png" alt="Container em execução, o segundo" width="700" height="336">
 </div>
 
 <div align="center">
-    <img src="./media/database-2.png" alt="Demonstração" width="700" height="336">
+    <img src="./media/database-2.png" alt="Persistência do banco" width="700" height="336">
 </div>
