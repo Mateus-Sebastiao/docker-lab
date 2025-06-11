@@ -1,4 +1,4 @@
-# Conteinerizando um aplicativo Javascript
+# Containerizando um aplicativo Javascript
 
 Este projeto foi importado de:
 
